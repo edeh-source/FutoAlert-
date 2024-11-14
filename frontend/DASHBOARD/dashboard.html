@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - FUTO Alert</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <!-- Sidebar Navigation Menu -->
+  <div class="sidebar">
+    <h2>FUTO AlertApp Dashboard</h2>
+    <ul>
+      <li><a href="#" id="dashboardButton">Dashboard</a></li>
+      <li><a href="#" id="viewAlertsButton">View Alerts</a></li>
+      <li><a href="#" id="createAlertButton">Create Alert</a></li>
+      <li><a href="#" id="settingsButton">Settings</a></li>
+      <li><a href="signin.html" id="logoutButton">Logout</a></li>
+    </ul>
+  </div>
+
+
+  <div class="main-content">
+    <h1>Welcome to Your Dashboard, <span id="userName">User</span>!</h1>
+    <p>Stay informed with real-time alerts in your area.</p>
+
+
+    <div class="buttons">
+      <button onclick="viewAlerts()">View Alerts</button>
+      <button onclick="createAlert()">Create New Alert</button>
+      <button onclick="settings()">Settings</button>
+    </div>
+
+    <div class="alerts-summary">
+      <h2>Recent Alerts in Your Area</h2>
+      <div id="alertList">
+
+        <div class="alert">
+          <h3>Bad Road</h3>
+          <p>Bad road in Eziobodo due to heavy rainfall.</p>
+        </div>
+        <div class="alert">
+          <h3>Weather Warning</h3>
+          <p>Heavy rain expected. Drive safely!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

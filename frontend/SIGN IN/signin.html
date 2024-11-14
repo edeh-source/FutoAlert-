@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - AlertApp</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+
+  <!-- Sign-In Container -->
+  <div class="signin-container">
+    <h1>Welcome Back to FUTO Alert!</h1>
+    <p>Sign in to stay updated with real-time alerts in your area.</p>
+    
+    <!-- Sign-In Form -->
+    <form id="signinForm" onsubmit="validateForm(event)">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <small class="error-message" id="emailError"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <small class="error-message" id="passwordError"></small>
+      </div>
+
+      <button type="submit" class="submit-button">Sign In</button>
+    </form>
+
+    <p class="signup-link">Don’t have an account? <a href="signup.html">Sign Up</a></p>
+    <p class="forgot-password"><a href="forgot-password.html">Forgot Password?</a></p>
+  </div>
+
+  <script src="signin.js"></script>
+</body>
+</html>
