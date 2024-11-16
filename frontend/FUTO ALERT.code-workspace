@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "LANDING PG"
+		},
+		{
+			"path": "SIGN UP"
+		},
+		{
+			"path": "SIGN IN"
+		},
+		{
+			"path": "FORGOT PASSWORD"
+		},
+		{
+			"path": "DASHBOARD"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SIGN UP"
+	}
+}
