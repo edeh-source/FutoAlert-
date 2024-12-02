@@ -1,0 +1,42 @@
+
+The Frontend of the FUTO Alert Project is the user-facing interface designed to facilitate seamless interaction with the system. It allows users to receive alerts, view updates, and access relevant information efficiently. Built using modern web technologies, the interface is optimized for responsiveness, speed, and accessibility.
+
+1. **HTML5**:  
+   - Structured the content of the web application, ensuring semantic elements were used for better readability and accessibility.
+
+2. **CSS3**:  
+   - Styled the interface to create an appealing and user-friendly design.  
+   - Used Flexbox and Grid for responsive layouts.  
+   - Incorporated animations and transitions for better user engagement.
+
+
+
+
+1. **User Dashboard**:  
+   - Displays real-time alerts and notifications.  
+   - Organized into categories for easy navigation.
+
+2. **Search Functionality**:  
+   - Allows users to search alerts or filter by category, date, or importance.
+
+3. **Responsive Design**:  
+   - Mobile-first approach ensures compatibility across all devices (smartphones, tablets, desktops).
+
+4. **Form Submission**:  
+   - Users can provide feedback or report issues via interactive forms with validation.
+
+5. **Alert Highlighting**:  
+   - Critical alerts are visually distinct to grab user attention.
+
+
+1. Navbar:  
+   - Provides links to various sections of the platform.
+   - Includes a search bar for quick navigation.
+
+2. Main Content Area:  
+   - Displays alerts dynamically fetched from the backend.
+   - Structured using cards or lists for better readability.
+
+3. Footer:  
+   - Contains contact information, terms, and conditions.
+
